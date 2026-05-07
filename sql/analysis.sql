@@ -1,5 +1,6 @@
 -- SQLite
 -- Query 1: List the bottom 10 products by profit margin
+
 select 
     product_name,
     sum(sales) as total_sales,
@@ -10,7 +11,6 @@ group by product_name
 having total_sales > 5000
 order by total_profit ASC
 limit 10;
-
 
 
 -- Query 2: Check if discount drives losses
