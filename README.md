@@ -59,17 +59,6 @@ Key questions explored:
 
 ![Dashboard Preview](reports/dashboard.png)
 
-## Project Structure
-
-ecommerce-profit-optimization/
-│
-├── data/
-├── notebooks/
-├── reports/
-├── sql/
-├── src/
-├── README.md
-
 ## Future Improvements
 
 - Add predictive profitability modeling
